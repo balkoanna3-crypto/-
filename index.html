@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Ваш бухгалтер</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: linear-gradient(120deg, #2c7be5, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+header h1 {
+    font-size: 44px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 14px 28px;
+    background: white;
+    color: #2c7be5;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+.feature i {
+    font-size: 40px;
+}
+
+.prices .price-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review {
+    width: 280px;
+    background: #f5f5f5;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    text-align: center;
+    background: #f0f0f0;
+    padding: 50px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.float-buttons {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.float-buttons a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Ваш бухгалтер</h1>
+    <p>Полное бухгалтерское сопровождение ИП и ООО</p>
+    <a href="#form" class="btn">Оставить заявку</a>
+    <a href="#prices" class="btn">Смотреть цены</a>
+</header>
+
+<section>
+    <h2>Почему выбирают нас</h2>
+    <div class="features">
+        <div class="feature">
+            <h3>Быстро</h3>
+            <p>Сдаём отчётность точно в срок</p>
+        </div>
+        <div class="feature">
+            <h3>Без ошибок</h3>
+            <p>Работаем строго по закону</p>
+        </div>
+        <div class="feature">
+            <h3>Под ключ</h3>
+            <p>Берём всю бухгалтерию на себя</p>
+        </div>
+    </div>
+</section>
+
+<section id="prices" class="prices">
+    <h2>Цены</h2>
+
+    <div class="price-item"><b>Нулевая отчетность:</b> от 900 ₽</div>
+    <div class="price-item">1–20 операций — от 1350 ₽</div>
+    <div class="price-item">21–50 — от 2010 ₽</div>
+    <div class="price-item">51–75 — от 2670 ₽</div>
+    <div class="price-item">76–100 — от 3330 ₽</div>
+    <div class="price-item">101–125 — от 3990 ₽</div>
+    <div class="price-item">126–150 — от 4650 ₽</div>
+    <div class="price-item">+25 операций — от 660 ₽</div>
+
+    
+
+    <div class="price-item"><b>Кадровый учет:</b></div>
+    <div class="price-item">1 сотрудник — 2400 ₽</div>
+    <div class="price-item">каждый следующий — 950 ₽</div>
+</section>
+
+<section>
+    <h2>Отзывы клиентов</h2>
+    <div class="reviews">
+        <div class="review">
+            <p>“Отличный бухгалтер, всё чётко и вовремя!”</p>
+            <b>ИП Иванов</b>
+        </div>
+        <div class="review">
+            <p>“Сэкономили нам кучу времени и нервов”</p>
+            <b>ООО Старт</b>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Ваш бухгалтер</p>
+</footer>
+
+<div class="float-buttons">
+    <a href="https://wa.me/89123220157" target="_blank">WA</a>
+    <a href="https://t.me/" target="_blank" style="background:#0088cc;">TG</a>
+</div>
+</body>
+</html>
